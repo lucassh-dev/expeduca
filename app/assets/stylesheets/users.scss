@@ -59,22 +59,49 @@ a.btn2.disabled, fieldset:disabled a.btn {
     background-color: #42186d;
     border-color: #331253;
     box-shadow: 0 0 0 0.2rem rgba(73, 29, 117, 0.5);
-  }
+}
   
-  .btn-exped.disabled, .btn-exped:disabled {
+.btn-exped.disabled, .btn-exped:disabled {
     color: #fff;
     background-color: #521b89;
     border-color: #521b89;
-  }
+}
   
-  .btn-exped:not(:disabled):not(.disabled):active, .btn-exped:not(:disabled):not(.disabled).active,
+.btn-exped:not(:disabled):not(.disabled):active, .btn-exped:not(:disabled):not(.disabled).active,
   .show > .btn-exped.dropdown-toggle {
     color: #fff;
     background-color: #331253;
     border-color: #331253;
-  }
+}
   
-  .btn-exped:not(:disabled):not(.disabled):active:focus, .btn-exped:not(:disabled):not(.disabled).active:focus,
+.btn-exped:not(:disabled):not(.disabled):active:focus, .btn-exped:not(:disabled):not(.disabled).active:focus,
   .show > .btn-exped.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(73, 29, 117, 0.5);
-  }
+}
+
+// Simple-line-icon
+.text-exped {
+    color: #521b89 !important;
+}
+
+//Font-awesome
+.social {
+    color: #521b89;
+    text-decoration:none;
+    background-color:transparent
+}
+
+.social:hover {
+    color:#42186d;
+    // text-decoration:underline
+}
+
+.social:not([href]) {
+    color:inherit;
+    text-decoration:none;
+}
+
+.social:not([href]):hover {
+    color:inherit;
+    text-decoration:none;
+}
